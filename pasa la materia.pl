@@ -80,54 +80,45 @@ pasa("DD","Modelos 1").
 pasa("Dexter","Modelos 1").
 pasa("Siri","Modelos 1").
 
-inscrito("Luis","Gestion de tecnologia").
-inscrito("Ricardo","Gestion de tecnologia").
-inscrito("PEPE","Gestion de tecnologia").
-inscrito("Brayan","Gestion de tecnologia").
-inscrito("Saul","Gestion de tecnologia").
-inscrito("Dexter","Gestion de tecnologia").
-inscrito("Timmy","Gestion de tecnologia").
-inscrito("Cosmo","Gestion de tecnologia").
-inscrito("Dave","Gestion de tecnologia").
-inscrito("Siri","Gestion de tecnologia").
+inscrito("Josue","Gestion de tecnologia").
+inscrito("David","Gestion de tecnologia").
+inscrito("Andres","Gestion de tecnologia").
+inscrito("Liliana","Gestion de tecnologia").
+inscrito("Sofia","Gestion de tecnologia").
+inscrito("Carmen","Gestion de tecnologia").
+inscrito("Charle","Gestion de tecnologia").
+inscrito("Manuel","Gestion de tecnologia").
+inscrito("Eduardo","Gestion de tecnologia").
+inscrito("Daniel","Gestion de tecnologia").
 
-definitiva("Luis","Gestion de tecnologia",24).
-definitiva("Ricardo","Gestion de tecnologia",43).
-definitiva("Eddy","Gestion de tecnologia",33).
-definitiva("Ed","Gestion de tecnologia",10).
-definitiva("DD","Gestion de tecnologia",50).
-definitiva("Dexter","Gestion de tecnologia",50).
-definitiva("Timmy","Gestion de tecnologia",29).
-definitiva("Cosmo","Gestion de tecnologia",15).
-definitiva("Dave","Gestion de tecnologia",22).
-definitiva("Siri","Gestion de tecnologia",49).
+definitiva("Josue","Gestion de tecnologia",35).
+definitiva("David","Gestion de tecnologia",46).
+definitiva("Andres","Gestion de tecnologia",32).
+definitiva("Liliana","Gestion de tecnologia",50).
+definitiva("Sofia","Gestion de tecnologia",42).
+definitiva("Carmen","Gestion de tecnologia",31).
+definitiva("Charle","Gestion de tecnologia",47).
+definitiva("Manuel","Gestion de tecnologia",21).
+definitiva("Eduardo","Gestion de tecnologia",11).
+definitiva("Daniel","Gestion de tecnologia",30).
 
 numerodeclases("Gestion de tecnologia", 100).
 
-fallas("Luis","Gestion de tecnologia",1).
-fallas("Ricardo","Gestion de tecnologia",21).
-fallas("Eddy","Gestion de tecnologia",20).
-fallas("Ed","Gestion de tecnologia",31).
-fallas("DD","Gestion de tecnologia",0).
-fallas("Dexter","Gestion de tecnologia",0).
-fallas("Timmy","Gestion de tecnologia",54).
-fallas("Cosmo","Gestion de tecnologia",55).
-fallas("Dave","Gestion de tecnologia",2).
-fallas("Siri","Gestion de tecnologia",0).
+fallas("Josue","Gestion de tecnologia",28).
+fallas("David","Gestion de tecnologia",4).
+fallas("Andres","Gestion de tecnologia",1).
+fallas("Liliana","Gestion de tecnologia",0).
+fallas("Sofia","Gestion de tecnologia",0).
+fallas("Carmen","Gestion de tecnologia",21).
+fallas("Charle","Gestion de tecnologia",15).
+fallas("Manuel","Gestion de tecnologia",42).
+fallas("Eduardo","Gestion de tecnologia",23).
+fallas("Daniel","Gestion de tecnologia",31).
 
-pasa("Ricardo","Gestion de tecnologia").
-pasa("Eddy","Gestion de tecnologia").
-pasa("DD","Gestion de tecnologia").
-pasa("Dexter","Gestion de tecnologia").
-pasa("Siri","Gestion de tecnologia").
-
-
-
-
-
-
-
-
-
-
-
+pasa("Josue","Gestion de tecnologia").
+pasa("David","Gestion de tecnologia").
+pasa("Andres","Gestion de tecnologia").
+pasa("Liliana","Gestion de tecnologia").
+pasa("Sofia","Gestion de tecnologia").
+pasa("Carmen","Gestion de tecnologia").
+pasa("Charle","Gestion de tecnologia").
