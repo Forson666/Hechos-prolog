@@ -246,7 +246,12 @@ nota("Manuel","Gestion de tecnologia","Final",21,20).
 nota("Eduardo","Gestion de tecnologia","Final",11,20).
 nota("Daniel","Gestion de tecnologia","Final",30,20).
 
-definitiva(X,Y,N):-nota(X,Y,"Taller 1",S,Z),nota(X,Y,"Taller 2",R,W),nota(X,Y,"Parcial 1",Q,V),nota(X,Y,"Parcial 2",P,U),nota(X,Y,"Final",O,T),N is (S*Z+R*W+Q*V+P*U+O*T)/100.
+suma([],0).
+suma([X|Xs],S):-suma(Xs,S2),S is S2 + X.
+
+definitiva(X,Y,N):-findall((B * C) / 100,nota(X,Y,_,B,C),Bag),suma(Bag,N).
+
+fallas(X,Y,Z):-findall(W,falla(X,Y,W),Bag),length(Bag,Z).
 
 %pasa("Ricardo","Modelos 1").
 %pasa("Eddy","Modelos 1").
