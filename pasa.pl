@@ -267,4 +267,4 @@ fallas(X,Y,Z):-findall(W,falla(X,Y,W),Bag),length(Bag,Z).
 %pasa("Carmen","Gestion de tecnologia").
 %pasa("Charle","Gestion de tecnologia").
 
-pasa(X,Y):- inscrito(X,Y),definitiva(X,Y,Q),Q >= 30, falla(X,Y,Z), numerodeclases(Y,N), Z < N*0.3.
+pasa(X,Y):- inscrito(X,Y),definitiva(X,Y,Q),Q >= 30, fallas(X,Y,Z), numerodeclases(Y,N), Z < N*0.3.
