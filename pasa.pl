@@ -31,44 +31,48 @@ inscrito("Manuel","Gestion de tecnologia").
 inscrito("Eduardo","Gestion de tecnologia").
 inscrito("Daniel","Gestion de tecnologia").
 
-numerodeclases("Gestion de tecnologia", 100).
+numerodeclases("Gestion de tecnologia", 10).
 
-numerodeclases("Modelos 2", 100).
+numerodeclases("Modelos 2", 10).
 
-numerodeclases("Modelos 1", 100).
+numerodeclases("Modelos 1", 10).
 
-fallas("Juan","Modelos 2",31).
-fallas("Jorge","Modelos 2",2).
-fallas("Carlos","Modelos 2",15).
-fallas("Elkin","Modelos 2",1).
-fallas("Goku","Modelos 2",3).
-fallas("Jose","Modelos 2",4).
-fallas("Nayibe","Modelos 2",0).
-fallas("Yuyeimi","Modelos 2",3).
-fallas("Yo","Modelos 2",0).
-fallas("Lenon","Modelos 2",5).
+falla("Juan","Modelos 2","15 de marzo del 2019").
+falla("Jorge","Modelos 2","2 de febrero del 2019").
+falla("Carlos","Modelos 2","20 de marzo del 2019").
+falla("Carlos","Modelos 2","18 de abril del 2019").
+falla("Carlos","Modelos 2","18 de junio").
+falla("Elkin","Modelos 2","1 de marzo del 2019").
+falla("Goku","Modelos 2","3 de enero del 2019").
+falla("Goku","Modelos 2","7 de enero del 2019").
+falla("Goku","Modelos 2","4 de marzo del 2019").
+falla("Goku","Modelos 2","17 de abril del 2019").
+falla("Jose","Modelos 2","21 de mayo del 2019").
+falla("Yuyeimi","Modelos 2","29 de febrero del 2019").
+falla("Yuyeimi","Modelos 2","19 de marzo del 2019").
+falla("Lenon","Modelos 2","30 de marzo del 2019").
 
-fallas("Luis","Modelos 1",1).
-fallas("Ricardo","Modelos 1",21).
-fallas("Eddy","Modelos 1",20).
-fallas("Ed","Modelos 1",31).
-fallas("DD","Modelos 1",0).
-fallas("Dexter","Modelos 1",0).
-fallas("Timmy","Modelos 1",54).
-fallas("Cosmo","Modelos 1",55).
-fallas("Dave","Modelos 1",2).
-fallas("Siri","Modelos 1",0).
+falla("Luis","Modelos 1","1 de enero del 2019").
+falla("Ricardo","Modelos 1","21 de junio del 2019").
+falla("Eddy","Modelos 1","20 de abril del 2019").
+falla("Ed","Modelos 1","31 de junio del 2019").
+falla("Ed","Modelos 1","1 de mayo del 2019").
+falla("Ed","Modelos 1","19 de abril del 2019").
+falla("Ed","Modelos 1","2 de enero del 20192").
+falla("Ed","Modelos 1","24 de marzo del 2019").
+falla("Ed","Modelos 1","18 de mayo del 2019").
+falla("DD","Modelos 1","19 de abril del 2019").
+falla("Dexter","Modelos 1","27 de junio del 2019").
+falla("Timmy","Modelos 1","7 de junio del 2019").
+falla("Cosmo","Modelos 1","3 de junio del 2019").
+falla("Siri","Modelos 1","5 de marzo del 2019").
 
-fallas("Josue","Gestion de tecnologia",28).
-fallas("David","Gestion de tecnologia",4).
-fallas("Andres","Gestion de tecnologia",1).
-fallas("Liliana","Gestion de tecnologia",0).
-fallas("Sofia","Gestion de tecnologia",0).
-fallas("Carmen","Gestion de tecnologia",21).
-fallas("Charle","Gestion de tecnologia",15).
-fallas("Manuel","Gestion de tecnologia",42).
-fallas("Eduardo","Gestion de tecnologia",23).
-fallas("Daniel","Gestion de tecnologia",31).
+falla("Josue","Gestion de tecnologia","10 de abril del 2019").
+falla("David","Gestion de tecnologia","27 de febrero del 2019").
+falla("Andres","Gestion de tecnologia","7 de enero del 2019").
+falla("Carmen","Gestion de tecnologia","24 de abril del 2019").
+falla("Charle","Gestion de tecnologia","16 de febrero del 2019").
+falla("Manuel","Gestion de tecnologia","14 de enero del 2019").
 
 %pasa("Jorge","Modelos 2").
 %pasa("Goku","Modelos 2").
@@ -258,4 +262,4 @@ definitiva(X,Y,N):-nota(X,Y,"Taller 1",S,Z),nota(X,Y,"Taller 2",R,W),nota(X,Y,"P
 %pasa("Carmen","Gestion de tecnologia").
 %pasa("Charle","Gestion de tecnologia").
 
-pasa(X,Y):- inscrito(X,Y),definitiva(X,Y,Q),Q >= 30, fallas(X,Y,Z), numerodeclases(Y,N), Z < N*0.3.
+pasa(X,Y):- inscrito(X,Y),definitiva(X,Y,Q),Q >= 30, falla(X,Y,Z), numerodeclases(Y,N), Z < N*0.3.
