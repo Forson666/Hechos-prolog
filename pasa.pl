@@ -213,38 +213,38 @@ nota("Manuel","Gestion de tecnologia","Parcial 2",21,20).
 nota("Eduardo","Gestion de tecnologia","Parcial 2",11,20).
 nota("Daniel","Gestion de tecnologia","Parcial 2",30,20).
 
-nota("Juan","Modelos 2","Final",30,20).
-nota("Jorge","Modelos 2","Final",40,20).
-nota("Carlos","Modelos 2","Final",25,20).
-nota("Elkin","Modelos 2","Final",13,20).
-nota("Goku","Modelos 2","Final",33,20).
-nota("Jose","Modelos 2","Final",44,20).
-nota("Nayibe","Modelos 2","Final",20,20).
-nota("Yuyeimi","Modelos 2","Final",30,20).
-nota("Yo","Modelos 2","Final",50,20).
-nota("Lenon","Modelos 2","Final",45,20).
+nota("Juan","Modelos 2","Final",30,30).
+nota("Jorge","Modelos 2","Final",40,30).
+nota("Carlos","Modelos 2","Final",25,30).
+nota("Elkin","Modelos 2","Final",13,30).
+nota("Goku","Modelos 2","Final",33,30).
+nota("Jose","Modelos 2","Final",44,30).
+nota("Nayibe","Modelos 2","Final",20,30).
+nota("Yuyeimi","Modelos 2","Final",30,30).
+nota("Yo","Modelos 2","Final",50,30).
+nota("Lenon","Modelos 2","Final",45,30).
 
-nota("Luis","Modelos 1","Final",24,25).
-nota("Ricardo","Modelos 1","Final",43,25).
-nota("Eddy","Modelos 1","Final",33,25).
-nota("Ed","Modelos 1","Final",10,25).
-nota("DD","Modelos 1","Final",50,25).
-nota("Dexter","Modelos 1","Final",50,25).
-nota("Timmy","Modelos 1","Final",29,25).
-nota("Cosmo","Modelos 1","Final",15,25).
-nota("Dave","Modelos 1","Final",22,25).
-nota("Siri","Modelos 1","Final",49,25).
+nota("Luis","Modelos 1","Final",24,30).
+nota("Ricardo","Modelos 1","Final",43,30).
+nota("Eddy","Modelos 1","Final",33,30).
+nota("Ed","Modelos 1","Final",10,30).
+nota("DD","Modelos 1","Final",50,30).
+nota("Dexter","Modelos 1","Final",50,30).
+nota("Timmy","Modelos 1","Final",29,30).
+nota("Cosmo","Modelos 1","Final",15,30).
+nota("Dave","Modelos 1","Final",22,30).
+nota("Siri","Modelos 1","Final",49,30).
 
-nota("Josue","Gestion de tecnologia","Final",35,20).
-nota("David","Gestion de tecnologia","Final",46,20).
-nota("Andres","Gestion de tecnologia","Final",32,20).
-nota("Liliana","Gestion de tecnologia","Final",50,20).
-nota("Sofia","Gestion de tecnologia","Final",42,20).
-nota("Carmen","Gestion de tecnologia","Final",31,20).
-nota("Charle","Gestion de tecnologia","Final",47,20).
-nota("Manuel","Gestion de tecnologia","Final",21,20).
-nota("Eduardo","Gestion de tecnologia","Final",11,20).
-nota("Daniel","Gestion de tecnologia","Final",30,20).
+nota("Josue","Gestion de tecnologia","Final",35,30).
+nota("David","Gestion de tecnologia","Final",46,30).
+nota("Andres","Gestion de tecnologia","Final",32,30).
+nota("Liliana","Gestion de tecnologia","Final",50,30).
+nota("Sofia","Gestion de tecnologia","Final",42,30).
+nota("Carmen","Gestion de tecnologia","Final",31,30).
+nota("Charle","Gestion de tecnologia","Final",47,30).
+nota("Manuel","Gestion de tecnologia","Final",21,30).
+nota("Eduardo","Gestion de tecnologia","Final",11,30).
+nota("Daniel","Gestion de tecnologia","Final",30,30).
 
 suma([],0).
 suma([X|Xs],S):-suma(Xs,S2),S is S2 + X.
