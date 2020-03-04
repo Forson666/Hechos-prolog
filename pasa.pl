@@ -74,13 +74,6 @@ falla("Carmen","Gestion de tecnologia","24 de abril del 2019").
 falla("Charle","Gestion de tecnologia","16 de febrero del 2019").
 falla("Manuel","Gestion de tecnologia","14 de enero del 2019").
 
-%pasa("Jorge","Modelos 2").
-%pasa("Goku","Modelos 2").
-%pasa("Jose","Modelos 2").
-%pasa("Yuyeimi","Modelos 2").
-%pasa("Lenon","Modelos 2").
-%
-
 nota("Juan","Modelos 2","Taller 1",30,15).
 nota("Jorge","Modelos 2","Taller 1",40,15).
 nota("Carlos","Modelos 2","Taller 1",25,15).
@@ -253,18 +246,6 @@ definitiva(X,Y,N):-findall((B * C) / 100,nota(X,Y,_,B,C),Bag),suma(Bag,N).
 
 fallas(X,Y,Z):-findall(W,falla(X,Y,W),Bag),length(Bag,Z).
 
-%pasa("Ricardo","Modelos 1").
-%pasa("Eddy","Modelos 1").
-%pasa("DD","Modelos 1").
-%pasa("Dexter","Modelos 1").
-%pasa("Siri","Modelos 1").
-
-%pasa("Josue","Gestion de tecnologia").
-%pasa("David","Gestion de tecnologia").
-%pasa("Andres","Gestion de tecnologia").
-%pasa("Liliana","Gestion de tecnologia").
-%pasa("Sofia","Gestion de tecnologia").
-%pasa("Carmen","Gestion de tecnologia").
-%pasa("Charle","Gestion de tecnologia").
-
 pasa(X,Y):- inscrito(X,Y),definitiva(X,Y,Q),Q >= 30, fallas(X,Y,Z), numerodeclases(Y,N), Z < N*0.3.
+
+pasan(Y,Lista):-findall((X,Q),(pasa(X,Y),definitiva(X,Y,Q)),Lista).
